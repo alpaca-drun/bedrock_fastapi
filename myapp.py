@@ -15,7 +15,7 @@ class InputModel(BaseModel):
 
 @app.post("/retrieve")
 def retrieve(input: InputModel):
-    kbId = 'RNPYIQLTNK'
+    kbId = ''
     modelArn = 'arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0'
 
     try:
